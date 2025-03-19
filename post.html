@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Lost/Found Item</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Post a Lost or Found Item</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="lost.html">Lost Items</a>
+            <a href="found.html">Found Items</a>
+            <a href="post.html">Post an Item</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Report a Lost or Found Item</h2>
+        <form>
+            <label for="item-name">Item Name:</label>
+            <input type="text" id="item-name" required>
+
+            <label for="status">Status:</label>
+            <select id="status">
+                <option value="lost">Lost</option>
+                <option value="found">Found</option>
+            </select>
+
+            <label for="location">Location:</label>
+            <input type="text" id="location" required>
+
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+    <script src="script.js"></script>
+    <footer>
+        <p>&copy; 2025 Online Lost and Found | Designed by Eyasin Arafat</p>
+    </footer>
+</body>
+</html>
